@@ -150,7 +150,6 @@
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="Asset.cpp" />
     <ClCompile Include="Bullet.cpp" />
-    <ClCompile Include="EndScene.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameObject.cpp" />
@@ -170,7 +169,6 @@
     <ClInclude Include="Animation.h" />
     <ClInclude Include="Asset.h" />
     <ClInclude Include="Bullet.h" />
-    <ClInclude Include="EndScene.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameObject.h" />

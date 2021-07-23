@@ -1,6 +1,9 @@
 #include "pch.h"
 #include "Game.h"
 
+
+extern bool GAME_END = false;
+
 int main() {
 	sf::ContextSettings settings;
 	settings.antialiasingLevel = 8;
@@ -32,6 +35,10 @@ int main() {
 
 		window.display();
 
+		if (GAME_END) {
+			cout << "게임 종료" << endl;
+			break;
+		}
 	}
 
 	game.release();

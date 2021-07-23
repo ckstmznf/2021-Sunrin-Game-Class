@@ -11,10 +11,11 @@ Enemy::Enemy()
 	rect = idle->rect;
 }
 
-Enemy::~Enemy()
+
+/*Enemy::~Enemy()
 {
-	cout << "利 昏力" << endl;
-}
+	//cout << "利 昏力" << endl;
+}*/
 
 void Enemy::update(float dt)
 {

@@ -7,7 +7,7 @@ class Enemy :
 {
 public:
     Enemy();
-    ~Enemy();
+    //~Enemy();
 
     void update(float dt);
     

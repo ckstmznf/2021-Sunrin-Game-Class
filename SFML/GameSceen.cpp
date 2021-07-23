@@ -5,6 +5,7 @@
 #include "ScrollingBackground.h"
 #include "Enemy.h"
 
+extern bool GAME_END;
 
 GameSceen::GameSceen()
 	:spawnDelay(0),
@@ -111,6 +112,12 @@ void GameSceen::update(float dt)
 	if (spawnDelay > spawnDelayOrigin) {
 		spawnDelay = 0;
 		addEnemy();
+	}
+
+
+	//플레이어가 사망했을때 게임을 종료시킨다.
+	if (player->die) {
+		GAME_END = true;
 	}
 }
 

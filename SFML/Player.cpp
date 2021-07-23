@@ -6,7 +6,7 @@
 
 
 Player::Player()
-	: Unit(ALLY, 10, 300, 0.1)
+	: Unit(ALLY, 10, 300, 0.2)
 {
 	idle = new Animation("image/player", 2, 10, true);
 	addChild(idle);
@@ -54,10 +54,8 @@ void Player::update(float dt)
 
 	//cout << fireDelay << endl;
 	if (fireDelay > fireDelayOrigin) {
-		if (Input::getKey(Key::Z)) {
+		if (Input::getKey(Key::Z) || Input::getKey(Key::Space)) {
 			fireDelay = 0;
-
-
 			//Vector2 p = Vector2(Pos.x + rect.width / 2, Pos.y);
 			game.currentScene->addBullet(team, center());
 		}
