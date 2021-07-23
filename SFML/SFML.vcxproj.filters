@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{c617945f-ef2b-4cfa-8e3f-ea6c6fcb6f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game Object">
+      <UniqueIdentifier>{8e634d73-9cf8-4a42-87ba-bc2a4669bad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\pch">
+      <UniqueIdentifier>{3c326085-207a-41f2-8c0a-bfa47c3d18e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene">
+      <UniqueIdentifier>{865c378f-06f3-4e4f-b73d-e63bda5aa63f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Animation">
+      <UniqueIdentifier>{fbedb115-41dd-480d-98ad-c57af9d3e903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game">
+      <UniqueIdentifier>{a31fe384-ad6b-4d5f-aa59-397d35e09c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\sprite">
+      <UniqueIdentifier>{08f0cd5f-4f58-450b-9d86-b144bf01b741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input">
+      <UniqueIdentifier>{f3a75115-1cd6-496f-970c-8affbf5ba95d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Asset">
+      <UniqueIdentifier>{6dbb1c71-3cbe-4733-b9e6-7729c333465c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e3adf024-b8eb-4ab8-a14e-4ee666815fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{8816c2d2-fd1b-4709-abe1-0d25d100255f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Framework\Game Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Framework\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Framework\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSceen.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>Framework\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="ScrollingBackground.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EndScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Framework\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Framework\Game Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Framework\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSceen.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Framework\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>Framework\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="ScrollingBackground.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EndScene.h" />
+  </ItemGroup>
+</Project>
